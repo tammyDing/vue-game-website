@@ -125,7 +125,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.container {
+  min-height: 100vh;
+}
 .main {
   padding: 0.266667rem;
 }

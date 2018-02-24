@@ -71,4 +71,20 @@ export default {
 .item-link .item-link-active span{
   color: #2697fc;
 }
+
+/* 适配处理 */
+@media screen and (min-width:750px) {
+    body {
+      background-color: #80bdfe;
+    }
+    #app {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .sticky-footer {
+        width: 750px;
+        margin: 0 auto;
+        left: auto;
+    }
+}
 </style>
